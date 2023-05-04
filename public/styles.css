@@ -1,0 +1,155 @@
+body {
+  box-sizing: border-box;
+  align-items: center;
+}
+header {
+  background-color: rgb(9, 69, 117);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+#search {
+  background-color: #b9eddd;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidebar {
+  width: 320px;
+  height: 95vh;
+  background-color: #c0b7b7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 183px;
+  border: 2px solid black;
+}
+.add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+.button {
+  width: 175px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 92%;
+  background-color: #161611;
+  height: 3px;
+}
+.btn {
+  width: 175px;
+  margin: 10px auto;
+  width: 100%;
+}
+nav {
+  background-color: transparent;
+  display: block;
+  margin: 10px;
+  padding: 5px;
+}
+nav button {
+  background-color: transparent;
+}
+.demo {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+}
+.demo button {
+  background-color: transparent;
+}
+.content {
+  display: inline-block;
+  width: 850px;
+  height: 95vh;
+  border: 2px solid black;
+}
+.content-header {
+  display: block;
+  margin: 10px;
+  padding: 5px;
+}
+.content-header span {
+  float: left;
+}
+.content-header input {
+  float: right;
+  margin-bottom: 10px;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  width: 500px;
+  height: 600px;
+  bottom: 0;
+  left: 600px;
+  bottom: 30px;
+  border: 3px solid #0d0b0b;
+  border-radius: 10px;
+  padding: 25px;
+  z-index: 9;
+}
+.form-block {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-block label,
+.form-block select {
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+.save {
+  background-color: #ffd93d;
+  border-radius: 5px;
+}
+.cancel {
+  color: #ff8400;
+  border-radius: 5px;
+}
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 250px;
+  margin: 10px;
+}
+.card button {
+  background-color: transparent;
+  width: 50px;
+  border: 0;
+  border-right: #756d6d;
+}
+.card div {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+}
